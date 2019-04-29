@@ -4,6 +4,7 @@ var boton = document.getElementById("cons");
 boton.addEventListener("click",creaPiramide);
 
 function creaPiramide(){
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     var r,w,h,aux1,aux2,z,b;
     b = parseInt(document.getElementById("Nbase").value);
     w = canvas.width;
