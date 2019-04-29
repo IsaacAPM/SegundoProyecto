@@ -1,0 +1,41 @@
+.html{
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    text-align: center;
+}
+
+#main-header{
+    background-color: coral;
+    color:#fff;
+}
+
+.my-form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 30%;
+}
+
+.boton{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
