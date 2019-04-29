@@ -1,6 +1,7 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var boton = document.getElementById("cons");
+var regresar = document.getElementById("indice");
 boton.addEventListener("click",creaPiramide);
 
 function creaPiramide(){
